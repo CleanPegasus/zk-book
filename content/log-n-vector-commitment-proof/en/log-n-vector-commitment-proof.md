@@ -125,7 +125,7 @@ We will slightly re-arrange the commitment $P = \langle\mathbf{a},\mathbf{G}\ran
 
 To prove this entire commitment at once, instead of three inner products, observe that
 
-$$P=\langle\mathbf{a},\mathbf{G}\rangle+\langle\mathbf{a},\mathbf{b}\circ\mathbf{Q}^n\rangle +\langle\mathbf{b},\mathbf{H}\rangle=\langle\mathbf{a}\oplus\mathbf{a}\oplus\mathbf{b},\mathbf{G}\oplus\mathbf{Q}^n\oplus\mathbf{H}\rangle$$
+$$P=\langle\mathbf{a},\mathbf{G}\rangle+\langle\mathbf{a},\mathbf{b}\circ\mathbf{Q}^n\rangle +\langle\mathbf{b},\mathbf{H}\rangle=\langle\mathbf{a}\oplus\mathbf{a}\oplus\mathbf{b},\mathbf{G}\oplus b\circ\mathbf{Q}^n\oplus\mathbf{H}\rangle$$
 
 where $\oplus$ means vector concatenation.
 
